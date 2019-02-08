@@ -1,15 +1,16 @@
 {
-  "name": "@fresh/button",
+  "name": "@fresh/theme",
   "version": "0.1.0",
-  "description": "A fresh button component",
+  "description": "Fresh component theming manager",
   "keywords": [
     "fresh",
-    "react",
     "ui",
-    "component"
+    "react",
+    "theme",
+    "happyfresh"
   ],
   "author": "Fathurozak Buhari <rozakbuhari@gmail.com>",
-  "homepage": "https://happyfresh.net/fresh/docs#button",
+  "homepage": "https://happyfresh.net/fresh/docs#theme",
   "license": "MIT",
   "main": "lib/index.js",
   "module": "src/index.jsx",
