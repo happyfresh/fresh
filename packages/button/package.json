@@ -25,7 +25,7 @@
     "url": "git+https://github.com/happyfresh/fresh.git"
   },
   "scripts": {
-    "build": "babel src --out-dir lib --minified --ignore 'src/**/*.spec.js','src/**/*.test.js' --config-file '../../.babelrc'"
+    "build": "babel --root-mode upward src -d lib --minified --ignore 'src/**/*.spec.js','src/**/*.test.js'"
   },
   "bugs": {
     "url": "https://github.com/happyfresh/fresh/issues"
